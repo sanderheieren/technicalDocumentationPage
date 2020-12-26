@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #454545;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #333;
+}
+p {
+  margin: 10px 0;
+}
+header {
+  margin: 20px 0;
+}
+ul li a {
+  color: #333;
+  text-decoration: none;
+}
+#navbar li {
+  margin-top: 10px;
+  font-size: 18px;
+  list-style: none;
+}
+
+@media (min-width: 726px) {
+  body {
+    background-color: #eee;
+  }
+}
